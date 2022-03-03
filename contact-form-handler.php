@@ -10,6 +10,6 @@ if($email!=NULL){
     mail($to,$subject,$txt,$headers);
     }
 //Redirect 
-header("Location:thankyou.html")
+header("Location:thankyou.html");
 
 ?>
