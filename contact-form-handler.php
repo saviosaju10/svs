@@ -7,9 +7,9 @@ $subject = "Mail From website";
 $text = "Nmae = ". $name . "\r\nEmail = " . $email . "\r\nMessage =" . $message;
 $headers = "From: noreply@sandx.com" . "\r\n" .
 if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
-    }
-//Redirect 
-header("Location:thankyou.html");
+  mail($to,$subject,$txt,$headers);
+}
 
+//Redirect
+header("Location: thankyou.html");
 ?>
